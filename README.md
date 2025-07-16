@@ -36,9 +36,7 @@ DATABASE_URL=""
 PORT=3000 # Port for the API server
 
 
-```
-
-   ### 4. Start the Application
+ ### 4. Start the Application
 Once the dependencies are installed and the database is configured, you can start the API server:
 ```
 npm run dev
