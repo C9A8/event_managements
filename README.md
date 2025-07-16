@@ -30,11 +30,11 @@ b. Environment Variables
 
 Create a .env file
 
-# Database Configuration
+#### Database Configuration
+```
 DATABASE_URL=""
-#PORT
-PORT=3000 # Port for the API server
-
+PORT="" # Port for the API server
+```
 
  ### 4. Start the Application
 Once the dependencies are installed and the database is configured, you can start the API server:
