@@ -110,6 +110,9 @@ export const getUsersById = async (req,res)=>{
     }
 
   } catch (error) {
+    if(error.code === "23505"){
+      return res.status(400).json({error : "User is already register for the event"})
+    }
     console.error("Failed to delete user", error);
     res.status(500).json({
       err: error,
